@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Facade;
 
 return [
 
+    'bearer' => env('APP_BEARER'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

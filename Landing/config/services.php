@@ -30,4 +30,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'activity' => [
+        'domain' => env('ACTIVITY_DOMAIN'),
+        'token' => env('ACTIVITY_TOKEN'),
+        'timeout' => env('ACTIVITY_TIMEOUT', 1),
+    ],
+
 ];
